@@ -1,4 +1,3 @@
-PFont Roboto_light_italic;
 void setup() {
   //size(300, 300);
   fullScreen();
@@ -55,11 +54,5 @@ void draw() {
   fill(255);
   translate(width/2, height/2);
   ellipse(0, 0, 10, 10);
-  popMatrix();
-
-  pushMatrix();
-  translate(width/2, height/2);
-  String t = "@Sayan Dutta";
-  text(t, - (t.length()/2) * 8, 120); 
   popMatrix();
 }
